@@ -13,26 +13,4 @@ To use this project you only need 3 files...
 
 In the javascript file there is an "id" variable that you can change to be any model on Sketchfab based on that model's guid you can see in the URL for any given model.  This acts as default model to load in the event there is no "id" variable set in the querystring for the HTML page so you can simply chage it there as well to view any model you choose.
 
-
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
+Follow on Twitter @FullyCroisened
