@@ -1,4 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to SKetchFabShowAndHide 
+
+# Custom viewer for Sketfab utilizing the Viewer API to allow showing and hiding of the model's parts
+
+Example Running Here: https://croisened.github.io/SketchFabShowAndHide/?id=784e95f4f22545199be7e165af6437f8
+
+
+To use this project you only need 3 files...
+
+- index.html (This file just has the HTML scaffolding to house the Sketchfab API viewer)
+- style.css (This file contains the bootstrap based layout information)
+- 
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/Croisened/SketchFabShowAndHide/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
