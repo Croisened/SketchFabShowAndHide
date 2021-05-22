@@ -9,15 +9,13 @@ To use this project you only need 3 files...
 
 - index.html (This file just has the HTML scaffolding to house the Sketchfab API viewer)
 - style.css (This file contains the bootstrap based layout information)
-- 
+- sf_showhide.js (This file contains all the code to initialize the Sketchfab viewer, process all the Matrix Transforms and ultimatley generate the treeview with show and hide buttons for each object in the scene)
+
+In the javascript file there is an "id" variable that you can change to be any model on Sketchfab based on that model's guid you can see in the URL for any given model.  This acts as default model to load in the event there is no "id" variable set in the querystring for the HTML page so you can simply chage it there as well to view any model you choose.
 
 
 
 
-
-You can use the [editor on GitHub](https://github.com/Croisened/SketchFabShowAndHide/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -38,15 +36,3 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[https://croisened.github.io/SketchFabShowAndHide/](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Croisened/SketchFabShowAndHide/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
