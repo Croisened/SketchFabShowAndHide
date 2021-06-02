@@ -71,7 +71,13 @@ var success = function (api) {
           //console.log("nodes indexed by names from flattened array");
           //console.log(myNodesByNameFromMap);
 
+          //attempt to look for a 'RootNode' - this seems to be present for FBX uploaded models
           rootNodeTree = myNodesByNameFromMap["RootNode"];
+
+          if(rootNodeTree === undefined){
+            //attempt to look for a 'root' - this seems to be present for OBJ or single object models
+            rootNodeTree = myNodesByNameFromMap["root"];
+          }
 
           if(rootNodeTree != undefined){
 
