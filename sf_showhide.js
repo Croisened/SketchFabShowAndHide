@@ -72,11 +72,15 @@ var success = function (api) {
           //console.log(myNodesByNameFromMap);
 
           rootNodeTree = myNodesByNameFromMap["RootNode"];
-          recurse(rootNodeTree, rootNodeTree.children.length, 0);
-          //console.log(officialNodes);
 
-          //Now we can build the tree for the UI
-          generateTree();
+          if(rootNodeTree != undefined){
+
+            recurse(rootNodeTree, rootNodeTree.children.length, 0);
+            //console.log(officialNodes);
+
+            //Now we can build the tree for the UI
+            generateTree();
+           } 
 
           var hideButtons = document.getElementsByClassName("Hide");
           //console.log('HIDE BUTTONS LENGTH: ' + hideButtons.length);
